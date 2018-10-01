@@ -1,0 +1,78 @@
+body{
+	background-color: #232323;
+	color : white;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.square{
+	width : 30%;
+	margin : 1.66%;
+	padding-bottom: 30%;
+	float: left;
+	border-radius: 30px;
+	transition: background 0.5s;
+	/* to support transition effect in every browser */
+	-webkit-transition: background 0.5s;   
+	-moz-transition: background 0.5s;
+}
+
+#container{
+	max-width: 600px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+#stripe{
+	background-color: white;
+	color : steelblue;
+	height: 30px;
+	text-align: center;
+}
+
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+
+#pickedColor{
+	font-size: 200%;
+}
+
+h1{
+	margin: 0;
+	background-color: steelblue;
+	margin : 0;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 20px 0;
+	line-height: 1.1;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	color: steelblue;
+	font-weight: 700;	
+	font-size: inherit;
+	letter-spacing: 1px;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	outline: none;
+}
+
+button:hover{
+	background-color: steelblue;
+	color: white;
+}
+
+#messageDisplay{
+	display: inline-block;
+	width: 20%;
+	color: black;
+}
